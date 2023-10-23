@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Memu = () => {
+export const Menu = () => {
     return (
         <>
             {/* <nav class="header-secnav">
@@ -24,5 +24,3 @@ const Memu = () => {
         </>
     )
 }
-
-export default Memu
