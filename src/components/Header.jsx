@@ -3,44 +3,30 @@ import React from 'react'
 export const Header = () => {
     return (
         <>
-            <section class="header-logo">
-                {/* <a href="#">
-                        <img
-                            src="./assets/img/img1.png"
-                            alt="logo"
-                            width="45%"
-                            height="45%"
-                        >
-                    </a> */}
-                <h1>
-                    <a href="#">ラジオ</a>
-                </h1>
-                <ul>
-                    <li>
+            <header class="flex justify-around">
+                <a class="m-2" href="#">img</a>
+                <ul class="flex justify-around">
+                    <li class="m-2">
+                        <a href="#">ラジオ</a>
+                    </li>
+                    <li class="m-2">
                         <a href="#">ドラマ</a>
                     </li>
-                    <li>
+                    <li class="m-2">
                         <a href="#">アニメ</a>
                     </li>
-                    <li>
+                    <li class="m-2">
                         <a href="#">スポーツ</a>
                     </li>
-                    <li>
+                    <li class="m-2">
                         <a href="#">エンタメ</a>
                     </li>
-                    <li>
+                    <li class="m-2">
                         <a href="#">音楽</a>
                     </li>
                 </ul>
-                {/* <a href="#">
-                        <img
-                            src="./assets/img/img3.png"
-                            alt="calender"
-                            width="45%"
-                            height="45%"
-                        >
-                    </a> */}
-            </section>
+                <a class="m-2" href="#">img</a>
+            </header>
 
 
 
