@@ -3,30 +3,20 @@ import React from 'react'
 export const Icon = () => {
     return (
         <>
-            <div class="sns-icon">
-                <dl>
-                    <dt>
-                        <a href="#">
-                            {/* <img src="./assets/img/share.png" alt="share" class="sns-img"> */}
-                        </a>
-                    </dt>
-                    <dd>
-                        <a href="https://line.me/ja/">
-                            {/* <img src="./assets/img/line.png" alt="line" class="sns-img"> */}
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="https://twitter.com/login">
-                            {/* <img src="./assets/img/facebook.png" alt="facebook" class="sns-img"> */}
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="https://ja-jp.facebook.com/">
-                            {/* <img src="./assets/img/twitter.png" alt="logo" class="sns-img"> */}
-                        </a>
-                    </dd>
-                </dl>
-            </div>
+            <ul class="flex justify-center m-4 border-t-4 border-indigo-500">
+                <li class="mt-4 p-4 bg-slate-100">
+                    <a href="#">メイン icon追加</a>
+                </li>
+                <li class="mt-4 p-4 bg-slate-100 border-x-2 border-s-indigo-500">
+                    <a href="https://line.me/ja/">L icon追加</a>
+                </li>
+                <li class="mt-4 p-4 bg-slate-100 border-r-2 border-s-indigo-500">
+                    <a href="https://twitter.com/login">T icon追加</a>
+                </li>
+                <li class="mt-4 p-4 bg-slate-100">
+                    <a href="https://ja-jp.facebook.com/">F icon追加</a>
+                </li>
+            </ul>
         </>
     )
 }
