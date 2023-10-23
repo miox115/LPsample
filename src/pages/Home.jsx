@@ -1,78 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lpsample</title>
-        <link rel="stylesheet" href="./assets/css/sanitize.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <meta name="description" content="sample text sample text sample text sample text sample text sample text ...">
-    </head>
-    <body>
-        <div>
-            <header class="header">
-                <dev class="header-logo">
-                    <a href="#">
+
+import React from 'react'
+
+export const Home = () => {
+    return (
+        <>
+            <div>
+                <header class="header">
+                    <dev class="header-logo">
+                        {/* <a href="#">
                         <img
                             src="./assets/img/img1.png"
                             alt="logo"
                             width="45%"
                             height="45%"
                         >
-                    </a>
-                    <h1>
-                        <a href="#">ラジオ</a>
-                    </h1>
-                    <ul>
-                        <li>
-                            <a href="#">ドラマ</a>
-                        </li>
-                        <li>
-                            <a href="#">アニメ</a>
-                        </li>
-                        <li>
-                            <a href="#">スポーツ</a>
-                        </li>
-                        <li>
-                            <a href="#">エンタメ</a>
-                        </li>
-                        <li>
-                            <a href="#">音楽</a>
-                        </li>
-                    </ul>
-                    <a href="#">
+                    </a> */}
+                        <h1>
+                            <a href="#">ラジオ</a>
+                        </h1>
+                        <ul>
+                            <li>
+                                <a href="#">ドラマ</a>
+                            </li>
+                            <li>
+                                <a href="#">アニメ</a>
+                            </li>
+                            <li>
+                                <a href="#">スポーツ</a>
+                            </li>
+                            <li>
+                                <a href="#">エンタメ</a>
+                            </li>
+                            <li>
+                                <a href="#">音楽</a>
+                            </li>
+                        </ul>
+                        {/* <a href="#">
                         <img
                             src="./assets/img/img3.png"
                             alt="calender"
                             width="45%"
                             height="45%"
                         >
-                    </a>
-                </dev>
-            </header>
-            <nav class="header-nav">
-                <ul class="header-navlist">
-                    <li class="header-navitem">
-                        <a href="#">ドラマ</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">アニメ</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">スポーツ</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">エンタメ</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">音楽</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <section class="section">
-            <figure class="title">
+                    </a> */}
+                    </dev>
+                </header>
+                <nav class="header-nav">
+                    <ul class="header-navlist">
+                        <li class="header-navitem">
+                            <a href="#">ドラマ</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">アニメ</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">スポーツ</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">エンタメ</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">音楽</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="section">
+                {/* <figure class="title">
                 <img
                     class="title-img"
                     src="./assets/img/title.jpg"
@@ -80,25 +74,25 @@
                     width="100%"
                     height="100%"
                 >
-            </figure>
-            <nav class="header-secnav">
-                <ul class="header-navlist">
-                    <li class="header-navitem">
-                        <a href="#">予告</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">内容</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">プレゼント</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">SNS</a>
-                    </li>
-                    <li class="header-navitem">
-                        <a href="#">意見</a>
-                    </li>
-                </nav>
+            </figure> */}
+                {/* <nav class="header-secnav">
+                    <ul class="header-navlist">
+                        <li class="header-navitem">
+                            <a href="#">予告</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">内容</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">プレゼント</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">SNS</a>
+                        </li>
+                        <li class="header-navitem">
+                            <a href="#">意見</a>
+                        </li>
+                </nav> */}
             </section>
             <section class="Wrapper">
                 <div>
@@ -113,7 +107,7 @@
                 <div>
                     <p>「本をプレゼントします！」</p>
                 </div>
-                <div>
+                {/* <div>
                     <img
                         class="event-img"
                         src="./assets/img/event.jpg"
@@ -121,7 +115,7 @@
                         width="100%"
                         height="100%"
                     >
-                </div>
+                </div> */}
                 <div>
                     <p>
                         <span class="blue">
@@ -166,7 +160,7 @@
                     <p>・期間中に申し込むこと</p>
                 </div>
             </section>
-            <div class="sns-icon">
+            {/* <div class="sns-icon">
                 <dl>
                     <dt>
                         <a href="#">
@@ -189,9 +183,12 @@
                         </a>
                     </dd>
                 </dl>
-            </div>
+            </div> */}
             <footer class="footer">
                 <small class="footer-copy">Copyright Lpsample Inc.</small>
             </footer>
-        </body>
-    </html>
+
+
+        </>
+    )
+}
