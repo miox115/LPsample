@@ -24,11 +24,11 @@ export const Home = () => {
                 >
             </figure> */}
 
-            <Menu />
+            {/* <Menu /> */}
 
-            <Wrapper />
+            {/* <Wrapper /> */}
 
-            <Icon />
+            {/* <Icon /> */}
 
             <Footer />
         </>
