@@ -8,6 +8,7 @@ import { Wrapper } from '../components/Wrapper'
 import { Apply } from '../components/Apply'
 import { Icon } from '../components/Icon'
 import { Footer } from '../components/Footer'
+import pic from "../img/front.jpg"
 
 export const Home = () => {
     return (
@@ -16,7 +17,7 @@ export const Home = () => {
 
             <Nav />
 
-            <p style={{ fontSize: '50px', color: 'red' }}>後から画像を入れる</p >
+            <img src={pic} alt="Front" />
 
             <Menu />
 
