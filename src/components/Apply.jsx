@@ -3,7 +3,7 @@ import React from 'react'
 export const Apply = () => {
     return (
         <>
-            <section class="text-center text-xl bg-transparent">
+            <section class="text-center text-xl ybg-red-200">
 
                 <p class="text-blue-600">応募方法</p>
 

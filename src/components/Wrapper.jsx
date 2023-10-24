@@ -3,7 +3,7 @@ import React from 'react'
 export const Wrapper = () => {
     return (
         <>
-            <section class="text-center text-3xl bg-transparent">
+            <section class="text-center text-3xl bg-lime-100">
                     <p>プレゼント企画</p>
                     <p>キャンペーン</p>
                     <p>プレゼント内容</p>
